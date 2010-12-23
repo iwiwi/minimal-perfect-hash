@@ -27,6 +27,10 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+// Usage:
+//   $ g++ -Wall -Wextra -O3 -lgtest -lgtest_main -lboost_serialization minimal_perfect_hash_test.cc
+//   $ ./a.out
+
 #include "minimal_perfect_hash.h"
 #include <algorithm>
 #include <cstdlib>
